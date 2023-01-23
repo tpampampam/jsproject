@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true,
+        "node": true             
+    },
+    "extends": ["airbnb/base"],
+    "rules": {
+        "camelcase": "error",
+        "indent": "off",
+        "no-undef": "error",
+        "semi": "off",
+        "curly":"error",
+        "strict":"off",
+        "max-len": ["error", 150, {"ignoreUrls": true}],
+        "no-unused-vars":"off",
+        "quotes": "off",
+        "comma-dangle": ["error", "never"],
+        "no-plusplus": "off",
+        "one-var":"off",
+        "no-alert":"off"
+    }
+}
